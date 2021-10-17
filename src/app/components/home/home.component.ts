@@ -1,5 +1,6 @@
 import { ProductServiceService } from './../../product-service.service';
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-home',
@@ -13,6 +14,9 @@ export class HomeComponent implements OnInit {
   sideProducts: any;
   dessertProducts: any;
   packageProducts: any;
+
+  // Icon Declerations
+  faFacebook = faFacebook;
 
   constructor(private service: ProductServiceService) { }
 
