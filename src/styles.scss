@@ -8,21 +8,21 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
-    scrollbar-width: thin;
-    scrollbar-color: #404040 #dbdbdb;
+    scrollbar-width: auto;
+    scrollbar-color: #4db6ac #ffffff;
   }
 
   /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
-    width: 7px;
+    width: 14px;
   }
 
   *::-webkit-scrollbar-track {
-    background: #dbdbdb;
+    background: #ffffff;
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #404040;
+    background-color: #4db6ac;
     border-radius: 0px;
-    border: 0px none #ffffff;
+    border: 3px none #ffffff;
   }
